@@ -17,7 +17,7 @@ model = load_model('./decoder_latent.h5')
 col1, col2, col3,col4,col5 = st.columns([1,1,1,1,2])
 
 with col1:
-    l0 = st.slider('l0',1.6090515e-07, 0.9999213, ,value =0.9999213,step= 1.6090515e-07)    
+    l0 = st.slider('l0',1.6090515e-07, 0.9999213 ,value =0.9999213,step= 1.6090515e-07)    
     l1 = st.slider('l1',1.6090515e-07, 0.9999213,1.6090515e-07)
     l2 = st.slider('l2',1.6090515e-07, 0.9999213, 1.6090515e-07)
     l3 = st.slider('l3',1.6090515e-07, 0.9999213, 1.6090515e-07)
